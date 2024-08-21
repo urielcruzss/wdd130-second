@@ -1,33 +1,35 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon&family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
     /* change the values below to your colors from your palette */
-    --primary-color: #396E94;
-    --secondary-color: #E7C24F;
-    --accent1-color: #A42212;
-    --accent2-color: white;
+    --primary-color: #1e2d2f;
+    --secondary-color: #7bb7b2;
+    --accent1-color: #ECC02F;
+    --accent2-color: #F3EDE1;
 
     /* change the values below to your chosen font(s) */
-    --heading-font: "IM Fell French Canon";
-    --paragraph-font: Lato, Helvetica, sans-serif;
+    --heading-font: "Roboto Slab";
+    --paragraph-font: "Roboto";
 
     /* these colors below should be chosen from among your palette colors above */
-    --headline-color-on-white: #396E94;
+    --headline-color-on-white: #1e2d2f;
     /* headlines on a white background */
-    --headline-color-on-color: white;
+    --headline-color-on-color: #ECC02F;
     /* headlines on a colored background */
-    --paragraph-color-on-white: #396E94;
+    --paragraph-color-on-white: #1e2d2f;
     /* paragraph text on a white background */
-    --paragraph-color-on-color: white;
+    --paragraph-color-on-color: #F3EDE1;
     /* paragraph text on a colored background */
-    --paragraph-background-color: #396E94;
-    --nav-link-color: #396E94;
-    --nav-background-color: #D4AC0D;
-    --nav-hover-link-color: white;
-    --nav-hover-background-color: #396E94;
+    --paragraph-background-color: #1e2d2f;
+    --nav-link-color: #1e2d2f;
+    --nav-background-color: #7bb7b2;
+    --nav-hover-link-color: #F3EDE1;
+    --nav-hover-background-color: #1e2d2f;
 }
 
 
